@@ -33,6 +33,16 @@ const themeExtended = experimental_extendTheme({
       },
     },
   },
+  components: {
+    MuiCardContent: {
+      styleOverrides: {
+        root: {
+          padding: "16px",
+          paddingBottom: "16px !important",
+        },
+      },
+    },
+  },
 });
 const container = document.getElementById("root");
 const root = createRoot(container!);
